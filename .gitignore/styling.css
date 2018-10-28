@@ -7,3 +7,28 @@ body{color:black;
 background:white;
 }
 
+#sidemenu a {
+    list-style-type: none;
+    width: 100px;
+    background-color: black;
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
+
+
+#sidemenu {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+/* skift link farve på hover */
+#sidemenu li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+.contactphoto {width: 150px;}
